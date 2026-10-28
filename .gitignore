@@ -1,0 +1,35 @@
+# File Tampering Detection System — .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+.env
+
+# Database & storage
+backend/data/
+storage/
+*.db
+*.sqlite3
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
